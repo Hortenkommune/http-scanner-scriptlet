@@ -1,7 +1,8 @@
 # http-scanner-scriptlet
 
-Scriptlet to test http(non-s) call for an IP-subnet or any of the domains registered to an organization, through domeneshop API.  
-Prints out any site that does not just redirect to a https-site.  
+Scriptlet to test that any website of yours, accessible by domain or IP subnet, redirect to HTTPS-sites.  
+If not, it'll warn you or give you the HTTP status code.   
+Domains are automatically grabbed from Domeneshop API, so you don't have to remember adding new domains to this script.  
 Creator: Alexander Hatlen for Horten Kommune.  
 Copyright: none!  
 
