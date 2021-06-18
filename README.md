@@ -1,6 +1,7 @@
 # http-scanner-scriptlet
 
 Scriptlet to test http(non-s) call for an IP-subnet or any of the domains registered to an organization, through domeneshop API.
+Prints out any site that does not just redirect to a https-site.
 Creator: Alexander Hatlen for Horten Kommune.
 Copyright: none!
 
