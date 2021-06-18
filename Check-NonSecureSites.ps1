@@ -14,9 +14,9 @@
 $domeneshopAPIkey = Get-Content .\.domeneshop-api
 
 # IP Scan settings. Cannot be larger than /24 as we're doing this as string...
-$subnet = "91.90.66." #/24
-$hostStart = 64 # 91.90.66.64/26
-$hostEnd = 127 # 91.90.66.64/26 (=64-127)
+$subnet = "1.2.3." #/24
+$hostStart = 4 # 
+$hostEnd = 20 #
 
 ## CONFIG PARAMS END
 
